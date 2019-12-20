@@ -120,7 +120,7 @@ translations = [
   end
 ]
 
-config = %{providers: providers}
+config = %{providers: providers, translations: translations}
 
 Vapor.start_link(__MODULE__, config, name: __MODULE__)
 ```
